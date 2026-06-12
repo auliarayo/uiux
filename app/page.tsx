@@ -36,7 +36,7 @@ export default function Home() {
 
             {/* LOGO */}
             <Image
-              src="/logo.png"
+              src="/applogo.png"
               alt="nav.io"
               width={40}
               height={40}
@@ -100,7 +100,7 @@ export default function Home() {
               <div className="flex items-center gap-5 mt-8">
 
                 <Image
-                  src="/logo.png"
+                  src="/applogo.png"
                   alt="nav.io"
                   width={90}
                   height={90}
@@ -143,7 +143,7 @@ export default function Home() {
               <div className="relative flex items-center gap-4">
 
                 <Image
-                  src="/mockup1.png"
+                  src="/mockup11.png"
                   alt="Mockup 1"
                   width={220}
                   height={450}
@@ -151,7 +151,7 @@ export default function Home() {
                 />
 
                 <Image
-                  src="/mockup2.png"
+                  src="/mockup22.png"
                   alt="Mockup 2"
                   width={250}
                   height={520}
@@ -159,7 +159,7 @@ export default function Home() {
                 />
 
                 <Image
-                  src="/mockup3.png"
+                  src="/mockup33.png"
                   alt="Mockup 3"
                   width={220}
                   height={450}
@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* OVERVIEW */}
-      <section className="pb-32">
+      <section className="pb-20">
 
         <div className="max-w-[1400px] mx-auto px-8">
 
@@ -204,6 +204,30 @@ export default function Home() {
             </div>
 
             <div className="grid grid-cols-2 gap-5">
+
+              <div className="bg-white rounded-[28px] border border-stone-200 p-6">
+
+                <p className="text-sm text-stone-500">
+                  Fokus Proyek
+                </p>
+
+                <h3 className="mt-2 text-xl font-semibold">
+                  Transportation & Mobility
+                </h3>
+
+              </div>
+
+              <div className="bg-white rounded-[28px] border border-stone-200 p-6">
+
+                <p className="text-sm text-stone-500">
+                  Metode
+                </p>
+
+                <h3 className="mt-2 text-xl font-semibold">
+                  Design Thinking
+                </h3>
+
+              </div>
 
               <div className="bg-white rounded-[28px] border border-stone-200 p-6">
 
@@ -317,28 +341,9 @@ export default function Home() {
 
           </div>
 
-          {/* INSIGHT HIGHLIGHT */}
-
-          <div className="mt-10 bg-[#214B3E] rounded-[40px] p-14 text-white">
-
-            <span className="uppercase tracking-[0.2em] text-green-200 text-sm">
-              Main Insight
-            </span>
-
-            <h3 className="text-4xl font-bold mt-5 max-w-4xl leading-tight">
-              Pengguna membutuhkan layanan transportasi yang terjangkau, nyaman, aman, dan mudah digunakan.
-            </h3>
-
-            <p className="mt-6 text-green-50 max-w-3xl text-lg">
-              Mayoritas responden mengeluhkan tingginya biaya perjalanan, kurangnya rasa aman saat berkendara,
-              serta tampilan aplikasi yang dianggap terlalu rumit untuk digunakan sehari-hari.
-            </p>
-
-          </div>
-
           {/* FIGMA */}
 
-          <div className="mt-20">
+          <div className="mt-16">
 
             <div className="overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
@@ -386,7 +391,7 @@ export default function Home() {
 
           <div className="grid lg:grid-cols-2 gap-8 mt-10">
 
-            {/* PROBLEM */}
+            {/* PROBLEM STATEMENT */}
 
             <div className="bg-[#214B3E] text-white rounded-[40px] p-12">
 
@@ -394,11 +399,11 @@ export default function Home() {
                 Problem Statement
               </span>
 
-              <h3 className="font-medium">
+              <p className="text-4xl mt-8 space-y-6 font-medium">
                 User mengalami kesulitan dalam mendapatkan layanan transportasi yang ekonomis, nyaman, dan aman,
                 karena biaya perjalanan yang relatif tinggi, kurangnya rasa aman selama perjalanan,
                 serta antarmuka aplikasi yang masih dianggap rumit.
-              </h3>
+              </p>
 
             </div>
 
@@ -764,8 +769,8 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center gap-10 mt-8">
 
             <Image
-              src="/profile.jpg"
-              alt="Ardansa"
+              src="/creator.jpeg"
+              alt="creator"
               width={180}
               height={180}
               className="
@@ -798,6 +803,7 @@ export default function Home() {
           </div>
 
         </div>
+
       </section>
 
       <footer className="border-t border-stone-200 py-10">
