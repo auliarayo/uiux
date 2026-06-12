@@ -113,11 +113,11 @@ export default function Home() {
               </div>
 
               <h2 className="mt-8 text-3xl md:text-5xl font-bold leading-tight max-w-2xl">
-                Membantu pengguna menemukan perjalanan terbaik dengan cepat dan mudah.
+                Memberikan pengalaman mobilitas yang lebih cerdas dengan perjalanan yang sesuai kebutuhan Anda.
               </h2>
 
               <p className="mt-8 text-lg text-stone-600 max-w-xl leading-relaxed">
-                Solusi mobilitas modern yang membantu pengguna memperoleh layanan perjalanan sesuai kebutuhan dan preferensi mereka melalui pengalaman digital yang sederhana, cepat, dan intuitif.
+                Solusi perjalanan modern yang menghadirkan kemudahan dalam menemukan opsi transportasi yang tepat untuk setiap kebutuhan.
               </p>
 
               <div className="flex gap-4 mt-10 flex-wrap">
@@ -210,7 +210,7 @@ export default function Home() {
               </p>
 
               <p className="text-lg text-stone-600 leading-relaxed mt-6">
-                Proyek ini dikembangkan menggunakan pendekatan Design Thinking untuk memastikan solusi yang dihasilkan benar-benar berpusat pada pengguna melalui tahapan riset, identifikasi masalah, eksplorasi ide, pembuatan prototype, dan pengujian.
+                Proyek ini dikembangkan menggunakan pendekatan Design Thinking untuk memastikan solusi yang dihasilkan benar-benar berpusat pada pengguna melalui tahapan riset, identifikasi masalah, eksplorasi ide, pembuatan prototype, dan pengujian (testing).
               </p>
 
             </div>
@@ -248,7 +248,7 @@ export default function Home() {
                 </p>
 
                 <h3 className="mt-2 text-xl font-semibold">
-                  4 Weeks
+                  3 Weeks
                 </h3>
 
               </div>
@@ -284,18 +284,13 @@ export default function Home() {
 
           <div className="max-w-4xl">
 
-            <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
-              Stage 01
-            </span>
-
             <h2 className="text-6xl font-bold mt-8">
               Empathize
             </h2>
 
             <p className="mt-6 text-xl text-stone-600 leading-relaxed">
-              Tahap awal difokuskan untuk memahami perilaku,
-              kebutuhan, serta hambatan yang dialami pengguna
-              saat menentukan pilihan perjalanan sehari-hari.
+              Untuk memahami kebutuhan pengguna, kami melakukan riset terhadap responden
+              dari berbagai kelompok usia dan latar belakang, mulai dari anak siswa SMP, siswa SMA, mahasiswa, hingga orang dewasa.
             </p>
 
           </div>
@@ -311,12 +306,11 @@ export default function Home() {
               </div>
 
               <h3 className="text-xl font-semibold mt-4">
-                User Interview
+                Wawancara User
               </h3>
 
               <p className="mt-4 text-stone-600">
-                Mengumpulkan pengalaman langsung pengguna
-                mengenai proses perjalanan sehari-hari.
+                Mengumpulkan pengalaman langsung user mengenai proses perjalanan sehari-hari.
               </p>
 
             </div>
@@ -332,8 +326,7 @@ export default function Home() {
               </h3>
 
               <p className="mt-4 text-stone-600">
-                Mengelompokkan insight hasil wawancara
-                menjadi pola kebutuhan yang serupa.
+                Mengelompokkan insight hasil wawancara menjadi pola kebutuhan yang serupa.
               </p>
 
             </div>
@@ -349,8 +342,7 @@ export default function Home() {
               </h3>
 
               <p className="mt-4 text-stone-600">
-                Mengidentifikasi masalah yang paling
-                sering dialami pengguna.
+                Mengidentifikasi masalah yang paling sering dialami pengguna.
               </p>
 
             </div>
@@ -366,16 +358,12 @@ export default function Home() {
             </span>
 
             <h3 className="text-4xl font-bold mt-5 max-w-4xl leading-tight">
-              Pengguna membutuhkan satu platform yang dapat
-              membantu membandingkan pilihan perjalanan dengan
-              cepat tanpa harus berpindah aplikasi.
+              Pengguna membutuhkan layanan transportasi yang terjangkau, nyaman, aman, dan mudah digunakan.
             </h3>
 
             <p className="mt-6 text-green-50 max-w-3xl text-lg">
-              Mayoritas responden menyatakan bahwa proses
-              mencari informasi perjalanan masih memerlukan
-              banyak aplikasi berbeda sehingga memakan waktu
-              dan membingungkan.
+              Mayoritas responden mengeluhkan tingginya biaya perjalanan, kurangnya rasa aman saat berkendara,
+              serta tampilan aplikasi yang dianggap terlalu rumit untuk digunakan sehari-hari.
             </p>
 
           </div>
@@ -383,19 +371,6 @@ export default function Home() {
           {/* FIGMA */}
 
           <div className="mt-20">
-
-            <div className="mb-8">
-
-              <h3 className="text-3xl font-semibold">
-                Research Documentation
-              </h3>
-
-              <p className="text-stone-500 mt-3">
-                Dokumentasi lengkap proses wawancara,
-                affinity mapping, dan analisis insight.
-              </p>
-
-            </div>
 
             <div className="overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
@@ -408,60 +383,8 @@ export default function Home() {
 
           </div>
 
-          {/* KEY FINDINGS */}
-
-          <div className="mt-20">
-
-            <h3 className="text-3xl font-semibold mb-10">
-              Key Findings
-            </h3>
-
-            <div className="grid lg:grid-cols-3 gap-6">
-
-              <div className="bg-[#F4F7F5] rounded-[28px] p-8">
-
-                <div className="text-5xl font-bold text-[#214B3E]">
-                  01
-                </div>
-
-                <p className="mt-6 text-stone-600">
-                  Sulit menentukan rute terbaik karena
-                  informasi tersebar di banyak platform.
-                </p>
-
-              </div>
-
-              <div className="bg-[#F4F7F5] rounded-[28px] p-8">
-
-                <div className="text-5xl font-bold text-[#214B3E]">
-                  02
-                </div>
-
-                <p className="mt-6 text-stone-600">
-                  Pengguna ingin estimasi biaya dan
-                  waktu perjalanan yang lebih jelas.
-                </p>
-
-              </div>
-
-              <div className="bg-[#F4F7F5] rounded-[28px] p-8">
-
-                <div className="text-5xl font-bold text-[#214B3E]">
-                  03
-                </div>
-
-                <p className="mt-6 text-stone-600">
-                  Kecepatan memperoleh informasi menjadi
-                  faktor penting dalam memilih transportasi.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
         </div>
+
       </section>
 
       {/* DEFINE */}
@@ -477,7 +400,7 @@ export default function Home() {
           <div className="max-w-4xl">
 
             <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
-              Stage 02
+              02
             </span>
 
             <h2 className="text-6xl font-bold mt-8">
@@ -485,8 +408,8 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 text-xl text-stone-600 leading-relaxed">
-              Hasil riset kemudian disintesis untuk menemukan
-              masalah utama yang paling berdampak terhadap pengguna.
+              Berdasarkan hasil tahap Empathize, kami mendefinisikanmasalah inti user serta mengidentifikasi peluang
+              untuk merancang solusi yang lebih efektif dan relevan dengan kebutuhan mereka.
             </p>
 
           </div>
@@ -504,12 +427,9 @@ export default function Home() {
               </span>
 
               <h3 className="text-3xl font-bold mt-6 leading-relaxed">
-
-                Pengguna mengalami kesulitan menentukan
-                pilihan perjalanan yang paling sesuai
-                karena informasi transportasi tersebar
-                di berbagai platform.
-
+                User mengalami kesulitan dalam mendapatkan layanan transportasi yang ekonomis, nyaman, dan aman,
+                karena biaya perjalanan yang relatif tinggi, kurangnya rasa aman selama perjalanan,
+                serta antarmuka aplikasi yang masih dianggap rumit.
               </h3>
 
             </div>
@@ -531,8 +451,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana membantu pengguna memilih
-                    perjalanan terbaik dengan cepat?
+                    Bagaimana kita bisa membuat biaya layanan lebih jelas dan terjangkau agar user tidak merasa terbebani saat menggunakan layanan?
                   </p>
 
                 </div>
@@ -544,8 +463,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana menyajikan informasi
-                    transportasi dalam satu platform?
+                    Bagaimana kita bisa membuat perjalanan terasa lebih nyaman dan aman bagi user selama menggunakan layanan?
                   </p>
 
                 </div>
@@ -557,8 +475,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana membuat pengalaman
-                    navigasi lebih intuitif?
+                    Bagaimana kita bisa membuat tampilan aplikasi lebih sederhana dan mudah dipahami agar user tidak kesulitan saat menggunakannya?
                   </p>
 
                 </div>
@@ -574,7 +491,7 @@ export default function Home() {
           <div className="mt-8 bg-[#F8F8F4] rounded-[40px] border border-stone-200 p-12">
 
             <span className="text-[#214B3E] text-sm uppercase tracking-[0.2em]">
-              Prioritas Masalah
+              Main Problem
             </span>
 
             <div className="grid md:grid-cols-3 gap-10 mt-10">
@@ -586,13 +503,8 @@ export default function Home() {
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  Menentukan perjalanan terbaik
+                  User membutuhkan tarif harga yang terjangkau dan stabil serta didukung dengan program promosi yang relevan.
                 </h4>
-
-                <p className="text-stone-600 mt-3">
-                  Sulit memilih opsi perjalanan yang
-                  sesuai dengan kebutuhan pengguna.
-                </p>
 
               </div>
 
@@ -603,13 +515,8 @@ export default function Home() {
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  Membandingkan transportasi
+                  User membutuhkan kenyamanan dalam perjalanan, baik dari segi kesesuaian armada maupun interaksi dengan driver.
                 </h4>
-
-                <p className="text-stone-600 mt-3">
-                  Informasi tersebar di berbagai
-                  platform yang berbeda.
-                </p>
 
               </div>
 
@@ -620,13 +527,8 @@ export default function Home() {
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  Memahami informasi perjalanan
+                  User menginginkan tampilan aplikasi yang simpel dengan navigasi yang jelas untuk mempermudah penggunaan aplikasi.
                 </h4>
-
-                <p className="text-stone-600 mt-3">
-                  Estimasi waktu dan biaya belum
-                  tersampaikan secara jelas.
-                </p>
 
               </div>
 
@@ -651,7 +553,7 @@ export default function Home() {
           <div className="max-w-4xl">
 
             <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
-              Stage 03
+              03
             </span>
 
             <h2 className="text-6xl font-bold mt-8">
@@ -659,26 +561,9 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 text-xl text-stone-600 leading-relaxed">
-              Setelah masalah utama berhasil diidentifikasi,
-              proses dilanjutkan dengan mengeksplorasi berbagai
-              alternatif solusi yang berpotensi menjawab kebutuhan pengguna.
+              Berdasarkan permasalahan yang telah didefinisikan, kami melakukan eksplorasi solusi melalu brainstorming,
+              pembuatan user flow, dan penyusunan struktur aplikasi untuk memastikan pengalaman pengguna yang optimal.
             </p>
-
-          </div>
-
-          {/* INTRO */}
-
-          <div className="mt-20 bg-[#214B3E] rounded-[40px] p-14 text-white">
-
-            <span className="uppercase tracking-[0.2em] text-green-200 text-sm">
-              Solution Exploration
-            </span>
-
-            <h3 className="text-4xl font-bold mt-5 max-w-4xl">
-              Berbagai ide dieksplorasi melalui brainstorming,
-              sketching, user flow, dan penyusunan design system
-              untuk menemukan solusi terbaik bagi pengguna.
-            </h3>
 
           </div>
 
@@ -689,12 +574,6 @@ export default function Home() {
             <h3 className="text-4xl font-bold">
               Crazy 8's & Brainstorming
             </h3>
-
-            <p className="text-stone-500 mt-4 max-w-3xl">
-              Teknik Crazy 8 digunakan untuk menghasilkan
-              berbagai alternatif solusi secara cepat sebelum
-              menentukan konsep yang akan dikembangkan lebih lanjut.
-            </p>
 
             <div className="mt-10 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
@@ -714,12 +593,6 @@ export default function Home() {
             <h3 className="text-4xl font-bold">
               Low-Fidelity Sketches
             </h3>
-
-            <p className="text-stone-500 mt-4 max-w-3xl">
-              Sketsa awal digunakan untuk memvisualisasikan
-              struktur antarmuka dan alur interaksi pengguna
-              sebelum memasuki tahap desain digital.
-            </p>
 
             <div className="mt-10 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
@@ -744,10 +617,6 @@ export default function Home() {
                 User Flow
               </h3>
 
-              <p className="text-stone-500 mt-4">
-                Visualisasi perjalanan pengguna saat menggunakan aplikasi.
-              </p>
-
               <div className="mt-8 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
                 <iframe
@@ -767,11 +636,6 @@ export default function Home() {
                 UI Kit & Design System
               </h3>
 
-              <p className="text-stone-500 mt-4">
-                Komponen dan panduan visual yang digunakan
-                untuk menjaga konsistensi antarmuka.
-              </p>
-
               <div className="mt-8 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
 
                 <iframe
@@ -781,16 +645,6 @@ export default function Home() {
 
               </div>
 
-            </div>
-
-          </div>
-
-          {/* TRANSITION */}
-
-          <div className="mt-28 text-center">
-
-            <div className="inline-flex px-5 py-3 rounded-full bg-green-50 border border-green-100 text-[#214B3E] font-medium">
-              Final solution selected for prototyping ↓
             </div>
 
           </div>
@@ -807,8 +661,8 @@ export default function Home() {
       >
         <div className="max-w-[1400px] mx-auto px-8">
 
-          <span className="text-[#214B3E] uppercase tracking-[0.2em] text-sm font-medium">
-            Interactive Experience
+          <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
+              04
           </span>
 
           <h2 className="text-6xl font-bold mt-4">
@@ -816,9 +670,8 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 text-lg text-stone-600 max-w-3xl">
-            Prototype interaktif dibuat menggunakan Figma
-            untuk mensimulasikan pengalaman pengguna sebelum
-            tahap pengembangan aplikasi.
+            Tahap prototype  bertujuan untuk menerjemahkan ide dan rancangan menjadi tampilan yang dapat diuji,
+            sehingga alur penggunaan, navigasi, dan interaksi antar halaman dapat dievaluasi sebelum memasuki tahap pengembangan.
           </p>
 
           <div className="mt-14 overflow-hidden rounded-[32px] border border-stone-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
@@ -839,8 +692,8 @@ export default function Home() {
       >
         <div className="max-w-[1400px] mx-auto px-8">
 
-          <span className="text-[#214B3E] uppercase tracking-[0.2em] text-sm font-medium">
-            Validation
+          <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
+              05
           </span>
 
           <h2 className="text-6xl font-bold mt-4">
@@ -868,28 +721,31 @@ export default function Home() {
               </h3>
 
               <p className="text-stone-600 leading-relaxed">
-                Pengujian dilakukan kepada seorang teman untuk
-                mengevaluasi kemudahan penggunaan aplikasi.
-                Pengguna dapat menyelesaikan seluruh tugas utama
-                tanpa hambatan yang berarti.
+                Pengujian dilakukan kepada seorang responden untuk mengevaluasi apakah solusi yang dirancang
+                telah menjawab kebutuhan pengguna terkait keterjangkauan biaya, kenyamanan dan keamanan perjalanan,
+                serta kemudahan penggunaan aplikasi.
               </p>
 
               <div className="mt-8 space-y-4">
 
                 <div className="bg-[#FAFAF8] p-5 rounded-2xl border border-stone-200">
-                  ✓ Navigasi mudah dipahami.
+                  ✓ User dapat melihat estimasi biaya perjalanan dengan mudah dan jelas.
                 </div>
 
                 <div className="bg-[#FAFAF8] p-5 rounded-2xl border border-stone-200">
-                  ✓ Informasi perjalanan jelas.
+                  ✓ Informasi perjalanan dan identitas driver mudah ditemukan sehingga meningkatkan rasa aman.
                 </div>
 
                 <div className="bg-[#FAFAF8] p-5 rounded-2xl border border-stone-200">
-                  ✓ Tampilan nyaman digunakan.
+                  ✓ Alur pemesanan sederhana dan dapat dipahami tanpa memerlukan bantuan tambahan.
                 </div>
 
                 <div className="bg-[#FAFAF8] p-5 rounded-2xl border border-stone-200">
-                  ✓ Pengguna berhasil menyelesaikan task utama.
+                  ✓ Tampilan antarmuka terasa nyaman dan bersih.
+                </div>
+
+                <div className="bg-[#FAFAF8] p-5 rounded-2xl border border-stone-200">
+                  ✓ User berhasil menyelesaikan seluruh task utama tanpa hambatan yang berarti.
                 </div>
 
               </div>
@@ -909,13 +765,9 @@ export default function Home() {
 
           <div className="bg-[#214B3E] rounded-[40px] p-14 text-white">
 
-            <span className="uppercase tracking-[0.2em] text-sm text-green-100">
-              Conclusion
+            <span className="text-5xl font-bold mt-4">
+              Kesimpulan
             </span>
-
-            <h2 className="text-5xl font-bold mt-4">
-              What We Learned
-            </h2>
 
             <p className="mt-8 text-lg text-green-50 max-w-4xl leading-relaxed">
               Melalui pendekatan Design Thinking, nav.io berhasil
@@ -960,19 +812,17 @@ export default function Home() {
             <div>
 
               <h2 className="text-5xl font-bold">
-                Ardansa
+                Aulia Raya December
               </h2>
 
               <p className="mt-2 text-xl text-stone-500">
-                UI/UX Designer • Frontend Developer
+                253307036 • 2B
               </p>
 
               <p className="mt-6 text-stone-600 max-w-2xl leading-relaxed">
-                Pengembang proyek nav.io yang berfokus pada
-                riset pengguna, perancangan antarmuka modern,
-                serta pengembangan solusi digital yang
-                membantu pengguna memperoleh pengalaman
-                perjalanan yang lebih efisien.
+                Proyek nav.io merupakan bagian dari tugas mata kuliah UI/UX Design yang bertujuan untuk menerapkan proses Design Thinking
+                dalam merancang solusi digital yang berpusat pada pengguna. Seluruh tahapan, mulai dari riset user, analisis masalah, ideasi,
+                pembuatan prototype, hingga usability testing, dilakukan sebagai bagiab dari proses pembelajaran dan pengembangan keterampilan desain pengalaman pengguna.
               </p>
 
             </div>
@@ -984,14 +834,10 @@ export default function Home() {
 
       <footer className="border-t border-stone-200 py-10">
 
-      <div className="max-w-[1400px] mx-auto px-8 flex justify-between">
+      <div className="max-w-[1400px] mx-auto px-8 flex center">
 
       <p className="text-stone-500">
-      © 2026 nav.io
-      </p>
-
-      <p className="text-stone-500">
-      Designed by Ardansa
+      © 2026 nav.io App
       </p>
 
       </div>
