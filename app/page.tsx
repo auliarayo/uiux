@@ -113,7 +113,7 @@ export default function Home() {
               </div>
 
               <h2 className="mt-8 text-3xl md:text-5xl font-bold leading-tight max-w-2xl">
-                Memberikan pengalaman mobilitas yang lebih cerdas dengan perjalanan yang sesuai kebutuhan Anda.
+                Memberikan pengalaman mobilitas yang sesuai dengan kebutuhan Anda.
               </h2>
 
               <p className="mt-8 text-lg text-stone-600 max-w-xl leading-relaxed">
@@ -123,19 +123,11 @@ export default function Home() {
               <div className="flex gap-4 mt-10 flex-wrap">
 
                 <a
-                  href="YOUR_FIGMA_PROTOTYPE_LINK"
+                  href="figma_prototype"
                   target="_blank"
                   className="px-7 py-4 rounded-2xl bg-[#214B3E] text-white font-medium hover:bg-[#17392B] transition"
                 >
                   Coba Prototype
-                </a>
-
-                <a
-                  href="YOUR_FULL_PROJECT_LINK"
-                  target="_blank"
-                  className="px-7 py-4 rounded-2xl border border-stone-300 bg-white font-medium"
-                >
-                  Proyek Seluruhnya
                 </a>
 
               </div>
@@ -191,13 +183,9 @@ export default function Home() {
 
           <div className="mb-12">
 
-            <span className="text-[#214B3E] uppercase tracking-[0.2em] text-sm font-medium">
-              Overview
-            </span>
-
-            <h2 className="text-5xl font-bold mt-4">
+            <span className="text-5xl font-bold mt-4">
               Tentang Proyek
-            </h2>
+            </span>
 
           </div>
 
@@ -220,35 +208,11 @@ export default function Home() {
               <div className="bg-white rounded-[28px] border border-stone-200 p-6">
 
                 <p className="text-sm text-stone-500">
-                  Role
+                  Waktu Pengerjaan
                 </p>
 
                 <h3 className="mt-2 text-xl font-semibold">
-                  UI/UX Designer
-                </h3>
-
-              </div>
-
-              <div className="bg-white rounded-[28px] border border-stone-200 p-6">
-
-                <p className="text-sm text-stone-500">
-                  Method
-                </p>
-
-                <h3 className="mt-2 text-xl font-semibold">
-                  Design Thinking
-                </h3>
-
-              </div>
-
-              <div className="bg-white rounded-[28px] border border-stone-200 p-6">
-
-                <p className="text-sm text-stone-500">
-                  Duration
-                </p>
-
-                <h3 className="mt-2 text-xl font-semibold">
-                  3 Weeks
+                  3 Minggu
                 </h3>
 
               </div>
@@ -276,13 +240,17 @@ export default function Home() {
       {/* EMPATHIZE */}
       <section
         id="empathize"
-        className="py-36"
+        className="py-16"
       >
         <div className="max-w-[1400px] mx-auto px-8">
 
           {/* HEADER */}
 
           <div className="max-w-4xl">
+
+            <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
+              01
+            </span>
 
             <h2 className="text-6xl font-bold mt-8">
               Empathize
@@ -297,7 +265,7 @@ export default function Home() {
 
           {/* RESEARCH METHOD */}
 
-          <div className="grid md:grid-cols-3 gap-6 mt-20">
+          <div className="grid md:grid-cols-3 gap-6 mt-10">
 
             <div className="bg-white border border-stone-200 rounded-[28px] p-8">
 
@@ -351,7 +319,7 @@ export default function Home() {
 
           {/* INSIGHT HIGHLIGHT */}
 
-          <div className="mt-20 bg-[#214B3E] rounded-[40px] p-14 text-white">
+          <div className="mt-10 bg-[#214B3E] rounded-[40px] p-14 text-white">
 
             <span className="uppercase tracking-[0.2em] text-green-200 text-sm">
               Main Insight
@@ -390,7 +358,7 @@ export default function Home() {
       {/* DEFINE */}
       <section
         id="define"
-        className="py-36 bg-white"
+        className="py-16 bg-white"
       >
 
         <div className="max-w-[1400px] mx-auto px-8">
@@ -416,7 +384,7 @@ export default function Home() {
 
           {/* TOP GRID */}
 
-          <div className="grid lg:grid-cols-2 gap-8 mt-20">
+          <div className="grid lg:grid-cols-2 gap-8 mt-10">
 
             {/* PROBLEM */}
 
@@ -426,7 +394,7 @@ export default function Home() {
                 Problem Statement
               </span>
 
-              <h3 className="text-3xl font-bold mt-6 leading-relaxed">
+              <h3 className="font-medium">
                 User mengalami kesulitan dalam mendapatkan layanan transportasi yang ekonomis, nyaman, dan aman,
                 karena biaya perjalanan yang relatif tinggi, kurangnya rasa aman selama perjalanan,
                 serta antarmuka aplikasi yang masih dianggap rumit.
@@ -434,12 +402,12 @@ export default function Home() {
 
             </div>
 
-            {/* HMW */}
+            {/* MAIN PROB */}
 
             <div className="bg-[#F4F7F5] rounded-[40px] p-12">
 
               <span className="text-[#214B3E] text-sm uppercase tracking-[0.2em]">
-                How Might We
+                Main Problem
               </span>
 
               <div className="mt-8 space-y-6">
@@ -451,7 +419,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana kita bisa membuat biaya layanan lebih jelas dan terjangkau agar user tidak merasa terbebani saat menggunakan layanan?
+                    User membutuhkan tarif harga yang terjangkau dan stabil serta didukung dengan program promosi yang relevan.
                   </p>
 
                 </div>
@@ -463,7 +431,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana kita bisa membuat perjalanan terasa lebih nyaman dan aman bagi user selama menggunakan layanan?
+                    User membutuhkan kenyamanan dalam perjalanan, baik dari segi kesuaian armada maupun interaksi dengan driver.
                   </p>
 
                 </div>
@@ -475,7 +443,7 @@ export default function Home() {
                   </div>
 
                   <p className="font-medium">
-                    Bagaimana kita bisa membuat tampilan aplikasi lebih sederhana dan mudah dipahami agar user tidak kesulitan saat menggunakannya?
+                    User menginginkan tampilan aplikasi yang simple dengan navigasi yang jelas untuk mempermudah penggunaan aplikasi.
                   </p>
 
                 </div>
@@ -486,48 +454,48 @@ export default function Home() {
 
           </div>
 
-          {/* PRIORITY */}
+          {/* HMW */}
 
           <div className="mt-8 bg-[#F8F8F4] rounded-[40px] border border-stone-200 p-12">
 
             <span className="text-[#214B3E] text-sm uppercase tracking-[0.2em]">
-              Main Problem
+              How Might We
             </span>
 
             <div className="grid md:grid-cols-3 gap-10 mt-10">
 
               <div>
 
-                <div className="text-6xl font-black text-[#214B3E]">
+                <div className="text-4xl font-bold text-[#214B3E]">
                   01
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  User membutuhkan tarif harga yang terjangkau dan stabil serta didukung dengan program promosi yang relevan.
+                  Bagaimana kita bisa membuat biaya layanan lebih jelas dan terjangkau agar user tidak merasa terbebani saat menggunakan layanan?
                 </h4>
 
               </div>
 
               <div>
 
-                <div className="text-6xl font-black text-[#5F9B82]">
+                <div className="text-4xl font-bold text-[#5F9B82]">
                   02
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  User membutuhkan kenyamanan dalam perjalanan, baik dari segi kesesuaian armada maupun interaksi dengan driver.
+                  Bagaimana kita bisa membuat perjalanan terasa lebih nyaman dan aman bagi user selama menggunakan layanan?
                 </h4>
 
               </div>
 
               <div>
 
-                <div className="text-6xl font-black text-[#AABCB4]">
+                <div className="text-4xl font-bold text-[#AABCB4]">
                   03
                 </div>
 
                 <h4 className="font-semibold text-xl mt-4">
-                  User menginginkan tampilan aplikasi yang simpel dengan navigasi yang jelas untuk mempermudah penggunaan aplikasi.
+                  Bagaimana kita bisa membuat tampilan aplikasi lebih sederhana dan mudah dipahami agar user tidak kesulitan saat menggunakannya?
                 </h4>
 
               </div>
@@ -543,7 +511,7 @@ export default function Home() {
       {/* IDEATE */}
       <section
         id="ideate"
-        className="py-36"
+        className="py-16"
       >
 
         <div className="max-w-[1400px] mx-auto px-8">
@@ -569,13 +537,13 @@ export default function Home() {
 
           {/* CRAZY 8 */}
 
-          <div className="mt-24">
+          <div className="mt-14">
 
             <h3 className="text-4xl font-bold">
               Crazy 8's & Brainstorming
             </h3>
 
-            <div className="mt-10 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
+            <div className="mt-14 overflow-hidden rounded-[32px] border border-stone-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
 
               <iframe
                 src={FIGMA_CRAZY8}
@@ -588,13 +556,13 @@ export default function Home() {
 
           {/* LOW FIDELITY */}
 
-          <div className="mt-28">
+          <div className="mt-14">
 
             <h3 className="text-4xl font-bold">
               Low-Fidelity Sketches
             </h3>
 
-            <div className="mt-10 overflow-hidden rounded-[32px] border border-stone-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.06)]">
+            <div className="mt-14 overflow-hidden rounded-[32px] border border-stone-200 shadow-[0_20px_60px_rgba(0,0,0,0.08)]">
 
               <iframe
                 src={FIGMA_LOFI}
@@ -607,7 +575,7 @@ export default function Home() {
 
           {/* USER FLOW + DESIGN SYSTEM */}
 
-          <div className="grid lg:grid-cols-2 gap-8 mt-28">
+          <div className="grid lg:grid-cols-2 gap-8 mt-14">
 
             {/* USER FLOW */}
 
@@ -657,13 +625,13 @@ export default function Home() {
 
       <section
         id="prototype"
-        className="py-32"
+        className="py-16"
       >
         <div className="max-w-[1400px] mx-auto px-8">
 
           <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
               04
-          </span>
+            </span>
 
           <h2 className="text-6xl font-bold mt-4">
             Prototype
@@ -694,13 +662,13 @@ export default function Home() {
 
           <span className="inline-flex px-4 py-2 rounded-full bg-green-50 border border-green-100 text-[#214B3E] text-sm font-medium">
               05
-          </span>
+            </span>
 
           <h2 className="text-6xl font-bold mt-4">
             Test
           </h2>
 
-          <div className="grid lg:grid-cols-2 gap-14 mt-14 items-center">
+          <div className="grid lg:grid-cols-2 gap-14 mt-6 items-center">
 
             <div>
 
@@ -717,7 +685,7 @@ export default function Home() {
             <div>
 
               <h3 className="text-3xl font-semibold mb-6">
-                Usability Testing Results
+                Hasil Usability Test
               </h3>
 
               <p className="text-stone-600 leading-relaxed">
@@ -834,10 +802,10 @@ export default function Home() {
 
       <footer className="border-t border-stone-200 py-10">
 
-      <div className="max-w-[1400px] mx-auto px-8 flex center">
+      <div className="max-w-[1400px] mx-auto px-8 flex justify-center items-center">
 
       <p className="text-stone-500">
-      © 2026 nav.io App
+      © 2026 nav.io - Mobility Application Case Study
       </p>
 
       </div>
